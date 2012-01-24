@@ -1,0 +1,10 @@
+This is a set of tools to help with using Google Reader to manage RSS
+feeds.
+
+For the moment, all programs which interface with the Google Reader
+API require a file named "account.py" which defines two variables,
+username and password. This is not included in the git repository, for
+obvious reasons.
+
+unread-count.py - Return the count of unread items. It can be used as
+	a Python module or a command-line script.
